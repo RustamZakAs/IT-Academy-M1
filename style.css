@@ -277,6 +277,10 @@ h1 {
     width: 662px;
 }
 
+.study li {
+    word-wrap: break-word;
+}
+
 .c-card {
     font-family: 'Roboto', sans-serif;
     display: flex;
