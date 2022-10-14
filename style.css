@@ -93,7 +93,7 @@ h1 {
 
 .qolos {
     width: 100%;
-    min-width: 155px;
+    min-width: 40%;
 }
 
 .operator {
@@ -249,7 +249,7 @@ h1 {
 .program-card .content {
     padding: 25px 11px 20px 20px;
     font-size: var(--program-card-secondary-text-size);
-    height: 168px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -308,7 +308,7 @@ h1 {
 
 .c-text {
     font-size: var(--secondary-text-size);
-    width: 700px;
+    width: 100%;
 }
 
 .c-user {
@@ -324,6 +324,7 @@ h1 {
 
 .madama-right {
     display: flex;
+    flex-direction: row;
 }
 
 .madama {
@@ -421,6 +422,10 @@ footer {
 .copyright {
     margin-top: 145px;
     font-size: var(--stufy-format-secondary-text-size);
+}
+
+.footer-container {
+    
 }
 /* 
 @media screen and (max-width: 830px) {
