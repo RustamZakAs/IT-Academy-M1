@@ -16,6 +16,15 @@
         background-color: beige;
     }
 
+    .top-info {
+        margin-top: 0;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 29px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .study {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
