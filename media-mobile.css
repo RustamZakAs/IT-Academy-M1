@@ -114,6 +114,9 @@
     }
 
     .c-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-style: normal;
         font-size: var(--secondary-text-size);
         width: 100%;
     }
@@ -131,12 +134,32 @@
         padding: 10px 10px;
     }
 
+    .price-card {
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        width: 48%;
+        margin: 0;
+    }
+
+    .stufy-format {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .secont-card {
+        width: 90%;
+        word-wrap: break-word;
+    }
+
     footer {
+        display: flex;
+        flex-direction: column;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         background-color: black;
-        display: flex;
-        flex-direction: row;
         color: white;
         padding: 10px 10px;
     }
