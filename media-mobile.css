@@ -38,7 +38,7 @@
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
         border-radius: 30px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
 
     .program-card-image {
@@ -72,11 +72,35 @@
         width: 0;
     }
 
+    .abount-course-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .abount-course-content .head {
+        width: 100%;
+        margin: 0;
+    }
+
+    .abount-course-content .operator {
+        width: 100%;
+        margin: 0;
+    }
+
+    .operator_main {
+        position: relative;
+        z-index: 2;
+        width: 50%;
+    }
+
     .footer_main {
+        margin-left: 0px;
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .program {
@@ -117,6 +141,7 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-style: normal;
+        line-height: 20px;
         font-size: var(--secondary-text-size);
         width: 100%;
     }
@@ -162,5 +187,10 @@
         background-color: black;
         color: white;
         padding: 10px 10px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
     }
 }

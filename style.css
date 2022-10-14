@@ -168,7 +168,13 @@ h1 {
     justify-content: space-between;
 }
 
+.footer_left {
+    visibility: visible;
+    width: 25%;
+}
+
 .operator-footer {
+    visibility: visible;
     width: 170px;
     margin-right: 100px;
 }
@@ -176,15 +182,18 @@ h1 {
 .footer_main {
     margin-left: 15px;
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    width: 75%;
 }
 
-.card {
+.footer_main .card {
     margin: 0 5px;
+    width: 30%;
 }
 
-.card h1 {
+.footer_main .card h1 {
     font-size: var(--card-header-text-size);
 }
 
@@ -206,7 +215,7 @@ h1 {
 }
 
 .secont-card p {
-    width: 60%;
+    width: 70%;
     font-size: var(--stufy-format-secondary-text-size);
 }
 
@@ -264,7 +273,7 @@ h1 {
 }
 
 .headers {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-family: 'Roboto Slab', serif;
     font-size: var(--header-text-size);
 }
