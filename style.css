@@ -234,7 +234,7 @@ h1 {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding-bottom: 121px;
+    /* padding-bottom: 121px; */
 }
 
 .program-card {
@@ -279,7 +279,7 @@ h1 {
 }
 
 .headers {
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     font-family: 'Roboto Slab', serif;
     font-size: var(--header-text-size);
 }
@@ -298,7 +298,7 @@ h1 {
 
 .study ul {
     margin: 0;
-    padding: 25px;
+    padding: 0 25px;
 }
 
 .study li {
@@ -325,9 +325,7 @@ h1 {
 
 .congratulation-rectangle {
     background-color: #EFEFEF;
-    padding: 0 122px 0;
-    padding-top: 91px;
-    padding-bottom: 111px;
+    padding: 91px 122px 111px;
 }
 
 .c-text {
@@ -368,8 +366,8 @@ h1 {
 .price-rectangle {
     font-family: 'Roboto', sans-serif;
     background-color: #9DC9C8;
-    padding-top: 91px;
-    padding-bottom: 91px;
+    /* padding-top: 91px; */
+    /* padding-bottom: 91px; */
     padding: 180px 122px;
 }
 

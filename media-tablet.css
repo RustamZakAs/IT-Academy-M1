@@ -39,7 +39,8 @@
         flex-direction: column;
         justify-content: space-between;
     
-        width: 100%;
+        width: 90%;
+        margin: auto;
         height: 261.2px;
         left: 0;
         top: 0;
@@ -80,7 +81,7 @@
 
     .congratulation-rectangle {
         background-color: #EFEFEF;
-        padding: 0;
+        /* padding: 0; */
         padding-top: 91px;
         padding-bottom: 111px;
     }
