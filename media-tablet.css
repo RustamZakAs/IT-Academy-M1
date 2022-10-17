@@ -40,7 +40,7 @@
         justify-content: space-between;
     
         width: 100%;
-        height: 451px;
+        height: 261.2px;
         left: 0;
         top: 0;
     
@@ -52,6 +52,7 @@
     }
 
     .program-card {
+        margin: auto;
         width: 30%;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
@@ -69,7 +70,7 @@
     }
 
     .program-card .content {
-        padding: 25px 11px 20px 20px;
+        padding: 5px 11px 30px 20px;
         font-size: var(--program-card-secondary-text-size);
         height: 80px;
         display: flex;
@@ -82,6 +83,17 @@
         padding: 0;
         padding-top: 91px;
         padding-bottom: 111px;
+    }
+
+    .rectangle {
+        width: 280.11px;
+        height: 115.83px;
+    }
+
+    .rectangle:nth-child(1) {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        font-size: var(--card-header-text-size);
     }
 
     .price-card {
@@ -103,7 +115,13 @@
 
     .madama-right {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    .madama {
+        width: 110px;
+        height: 100px;
+        margin-right: 20px;
     }
 
     footer {
