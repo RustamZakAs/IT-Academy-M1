@@ -279,7 +279,7 @@ h1 {
 }
 
 .headers {
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     font-family: 'Roboto Slab', serif;
     font-size: var(--header-text-size);
 }
