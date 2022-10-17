@@ -278,6 +278,10 @@ h1 {
     font-size: var(--header-text-size);
 }
 
+.margin-top {
+    margin-top: 0;
+}
+
 .study {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
