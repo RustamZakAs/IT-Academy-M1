@@ -6,7 +6,7 @@
         --content-text-size: 14px;
         --card-header-text-size: 15px;
         --program-card-header-text-size: 17px;
-        --stufy-format-secondary-text-size: 11px;
+        --stufy-format-secondary-text-size: 14px; /*11px;*/
     }
 
     .container {

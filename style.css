@@ -196,6 +196,7 @@ h1 {
 .footer_main .card {
     margin: 0 5px;
     width: 30%;
+    min-width: min-content;
 }
 
 .footer_main .card h1 {
@@ -231,18 +232,30 @@ h1 {
 .program {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    /* justify-content: space-between; */
+    align-items: stretch;
     flex-wrap: wrap;
     /* padding-bottom: 121px; */
+    margin-top: 40px;
 }
 
 .program-card {
     width: 30%;
-    background: #FFFFFF;
+    margin: 0 2.5% 2.5%;
+    background-color: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     margin-bottom: 60px;
+}
+
+.program div.program-card:nth-child(3n + 1) {
+    /* margin: 0 2.5%; */
+    margin-left: 0;
+}
+
+.program div.program-card:nth-child(3n) {
+    /* margin: 0 2.5%; */
+    margin-right: 0;
 }
 
 .program-card-image {
@@ -279,7 +292,7 @@ h1 {
 }
 
 .headers {
-    margin-bottom: 2%;
+    margin-bottom: 1.1%;
     font-family: 'Roboto Slab', serif;
     font-size: var(--header-text-size);
 }
@@ -321,11 +334,12 @@ h1 {
     background-color: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    margin-top: 40px;
 }
 
 .congratulation-rectangle {
     background-color: #EFEFEF;
-    padding: 91px 122px 111px;
+    padding: 35px 122px 111px;
 }
 
 .c-text {
@@ -368,7 +382,7 @@ h1 {
     background-color: #9DC9C8;
     /* padding-top: 91px; */
     /* padding-bottom: 91px; */
-    padding: 180px 122px;
+    padding: 80px 122px;
 }
 
 .price-with-text {
