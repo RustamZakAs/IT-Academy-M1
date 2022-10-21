@@ -249,12 +249,10 @@ h1 {
 }
 
 .program div.program-card:nth-child(3n + 1) {
-    /* margin: 0 2.5%; */
     margin-left: 0;
 }
 
 .program div.program-card:nth-child(3n) {
-    /* margin: 0 2.5%; */
     margin-right: 0;
 }
 

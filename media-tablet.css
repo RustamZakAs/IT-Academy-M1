@@ -61,6 +61,16 @@
         margin-bottom: 40px;
     }
 
+    .program div.program-card:nth-child(3n + 1) {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    
+    .program div.program-card:nth-child(3n) {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
     .footer_main {
         margin-left: 0px;
         display: flex;
